@@ -2,15 +2,18 @@ package com.lecture1.homework;
 
 public class Task3 {
     public static void main(String args[]) {
+        //объявление переменной
+        final String LINE_BREAK_SYMBOL = "\n";
+
         //создание массива символов
-        char[] globoforceArray = {'G', 'l', 'o', 'b', 'o', 'f', 'o', 'r', 'c', 'e'};
+        char[] globoforceArray = {'G', 'l', 'o', 'b', 'o', 'f', 'o', 'r', 'c', 'e','b'};
 
         //создание строки из массива символов
         String globoforceString = new String(globoforceArray);
-        System.out.println(globoforceString + "\n");
+        System.out.println(globoforceString + LINE_BREAK_SYMBOL);
 
         //выводит размер массива
-        System.out.println("Array size is " + globoforceArray.length + "\n");
+        System.out.println("Array size is " + globoforceArray.length + LINE_BREAK_SYMBOL);
 
         //замена b на $
         //проверяет первый символ, если b, то меняет на $, если нет, то переходит к след (n++ - это n+1) и т.д.
