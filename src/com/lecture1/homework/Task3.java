@@ -1,13 +1,21 @@
 package com.lecture1.homework;
 
+/**
+ *
+ */
 public class Task3 {
-    public static void main(String args[]) {
-        //объявление переменной
-        final String LINE_BREAK_SYMBOL = "\n";
 
+    /**
+     *
+     * @param args
+     */
+    public static void main(String args[]) {
+        /**
+         * create final string LINE_BREAK_SYMBOL, and array globoforceArray
+         */
+        final String LINE_BREAK_SYMBOL = "\n";
         //создание массива символов
         char[] globoforceArray = {'G', 'l', 'o', 'b', 'o', 'f', 'o', 'r', 'c', 'e','b'};
-
         //создание строки из массива символов
         String globoforceString = new String(globoforceArray);
         System.out.println(globoforceString + LINE_BREAK_SYMBOL);

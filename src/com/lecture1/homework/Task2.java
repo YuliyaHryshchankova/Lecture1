@@ -1,8 +1,17 @@
 package com.lecture1.homework;
 
+/**
+ *
+ */
 public class Task2 {
-    //main - спец исполняемый метод в джаве
+    /**
+     * main - спец исполняемый метод в джаве
+     * @param args
+     */
     public static void main(String[] args) {
+        /**
+         * creating strings s1, s2, s3 and LINE_BREAK_SYMBOL
+         */
         String s1 = "We make work HUMAN.";
         String s2 = "Unlock full potential. Celebrate positive moments.";
         String s3 = "Every day.";
